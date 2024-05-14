@@ -22,6 +22,7 @@ public class ItemController {
         List<Item> result = itemRepository.findAll();
         System.out.println(result.get(0).price);
         System.out.println(result.get(0).title);
+        System.out.println(result.get(0).title);
 //        List<Object> a = new ArrayList<>();
 
         model.addAttribute("items", result);
