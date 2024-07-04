@@ -6,4 +6,4 @@ import org.springframework.stereotype.Controller;
 @Controller
 public interface PostRepository extends JpaRepository<Post, Integer> {
 }
-//ssdddss
+//ssdddssss
